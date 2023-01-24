@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav .navbar .bg-body-tertiary {
+    background-color: #212529;
+}
+
+nav .nav-link {
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    margin: 0 0.5rem;
+}
+
+nav .navbar-brand img {
+    width: 150px;
+    margin: 15px 0 15px 43px;
+}
+
+nav ul {
+    margin-left: 50px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #FCA311;
+}
+
+.navbar .navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #FCA311;
+    width: 0%;
+    content: '';
+    height: 4px;
+    transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 60%;
+}
+
+.content .gambar1 {
+    min-width: 100%;
+    min-height: 505px;
+}
+
+.content img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.content .about {
+    margin-top: 20px;
+}
+
+.content .about span {
+    width: 200px;
+    height: 4px;
+    background-color: #FCA311;
+}
+
+.content .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .about h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.content .container-about {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.content .about-content {
+    width: 40%;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.content2,
+.content3 {
+    padding-top: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    height: 35%;
+    width: 100%;
+    background-color: #212529;
+    margin-top: 2.5rem;
+    color: #fff;
+}
+
+.footer {
+    padding: 2.5rem;
+}
+
+.footer h2 {
+    padding-top: 3rem;
+    font-size: 22px;
+}
+
+.footer h2 span{
+    color: #ff9d00;
+}
+
+.sosial-media a {
+    padding: 0 0.5rem;
+    margin-left: 2rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.sosial-media a .bi-facebook:hover {
+    color: #1877f2;
+}
+
+.sosial-media a .bi-instagram:hover {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 0.5rem;
+    padding: 0 6px;
+}
+
+.sosial-media a .bi-twitter:hover {
+    color: rgb(29, 155, 240);
+}
